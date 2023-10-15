@@ -11,7 +11,7 @@ file_dir = os.path.dirname(os.path.realpath('__file__'))
 print(file_dir)
 
 #For accessing the file in the same folder
-file_name = "mbox-short.txt.rtf"
+file_name = "mbox-short.txt"
 read_file(file_name)
 
 for line in file_name:
