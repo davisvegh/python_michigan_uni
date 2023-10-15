@@ -9,6 +9,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 url = input("Enter URL: ")
+if (len(url) < 1): url = 'http://py4e-data.dr-chuck.net/known_by_Fikret.html'
 
 num_times = int(input("Enter count: "))
 pos = int(input("Enter position: "))
