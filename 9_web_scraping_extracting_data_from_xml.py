@@ -8,6 +8,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 address = input('Enter location: ')
+if (len(address) < 1): address = 'http://py4e-data.dr-chuck.net/comments_1891874.xml'
 
 url = address
 print('Retrieving', url)
